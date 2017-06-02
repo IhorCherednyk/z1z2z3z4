@@ -125,3 +125,11 @@ textarea {
   margin: 0 auto; }
   .btn-gray:hover, .btn-gray:active {
     color: #fff; }
+
+.tbl {
+  display: table;
+  width: 100%; }
+  .tbl .dc {
+    display: table-cell; }
+    .tbl .dc.va {
+      vertical-align: middle; }
