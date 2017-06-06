@@ -37,10 +37,10 @@ body {
 p {
   margin-bottom: 21px;
   margin-top: 0px; }
-  p .lead {
+  p.lead {
     font-size: 18px;
     font-weight: 300; }
-  p .text-white {
+  p.text-white {
     color: #fff !important; }
 
 strong {
