@@ -2863,7 +2863,8 @@ aside .stream .stream-info-wrapper {
   display: -ms-flexbox;
   display: flex; }
   .nk-decorated-h .text-main-1 {
-    color: #fff !important; }
+    color: #fff !important;
+    font-size: 22px; }
   .nk-decorated-h span {
     display: block;
     -ms-flex: auto;
@@ -2881,7 +2882,7 @@ aside .stream .stream-info-wrapper {
     -webkit-flex: 20px;
     -ms-flex: 20px;
     flex: 20px;
-    border-bottom: 4px solid #dd163b;
+    border-bottom: 2px solid #dd163b;
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px); }
@@ -2892,7 +2893,145 @@ aside .stream .stream-info-wrapper {
     -webkit-box-flex: 100;
     -webkit-flex: 100;
     flex: 100;
-    border-bottom: 4px solid #dd163b;
+    border-bottom: 2px solid #dd163b;
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px); }
+
+.vantage {
+  overflow: hidden; }
+  .vantage .tbl-row {
+    display: table;
+    width: 100%; }
+    .vantage .tbl-row .td-wrap {
+      padding: 10px;
+      display: table-cell;
+      width: 33%;
+      text-align: center; }
+      .vantage .tbl-row .td-wrap div {
+        color: #fff;
+        border: 1px solid #b07521;
+        padding: 20px 10px; }
+        .vantage .tbl-row .td-wrap div i {
+          display: block;
+          width: 40px;
+          margin: 0 auto;
+          font-size: 40px;
+          color: #b07521;
+          margin-bottom: 10px; }
+
+.single-book .book-list {
+  background-color: rgba(0, 0, 0, 0.4); }
+  .single-book .book-list .book-left-wrapper img {
+    margin: 0; }
+
+.single-book .btn-reg {
+  color: #ff9600;
+  border-color: #ff9600;
+  padding: 10px 25px;
+  letter-spacing: 1.5px; }
+  .single-book .btn-reg:hover, .single-book .btn-reg:active, .single-book .btn-reg:focus {
+    color: #ff9600;
+    border-color: #ff9600; }
+
+.single-book .book-review .reg-wrap {
+  text-align: center;
+  margin: 20px 0; }
+  .single-book .book-review .reg-wrap a {
+    display: inline-block;
+    outline: none; }
+
+.single-book .single-book-wrap {
+  margin-bottom: 70px; }
+
+.payment-wrap img {
+  display: inline-block;
+  padding: 20px; }
+
+.betsinfo .betsinfo-wrapper {
+  border: 1px solid #ff9600;
+  margin-bottom: 30px; }
+
+.betsinfo .betsinfo-header {
+  background-color: #ff9600;
+  padding: 20px;
+  color: #000;
+  margin: 0; }
+
+.betsinfo .descr-wrapper {
+  background-color: #273138;
+  padding: 20px; }
+  .betsinfo .descr-wrapper p {
+    margin: 0; }
+
+.box-stream-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  border: 1px solid #BD4111;
+  margin-bottom: 30px; }
+  .box-stream-wrapper .box-stream-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(45deg, #1f1f1f 0, rgba(0, 0, 0, 0.8) 33%, transparent 100%);
+    background: linear-gradient(45deg, #1f1f1f 0, rgba(0, 0, 0, 0.8) 33%, transparent 100%); }
+    .box-stream-wrapper .box-stream-overlay:hover {
+      background: -webkit-linear-gradient(45deg, #1f1f1f 0, rgba(0, 0, 0, 0.6) 33%, transparent 100%);
+      background: linear-gradient(45deg, #1f1f1f 0, rgba(0, 0, 0, 0.6) 33%, transparent 100%); }
+    .box-stream-wrapper .box-stream-overlay .box-stream-content {
+      position: absolute;
+      padding: 20px;
+      bottom: 0;
+      margin-bottom: 0;
+      width: 100%; }
+      .box-stream-wrapper .box-stream-overlay .box-stream-content span {
+        display: block; }
+      .box-stream-wrapper .box-stream-overlay .box-stream-content .platform, .box-stream-wrapper .box-stream-overlay .box-stream-content .viewers, .box-stream-wrapper .box-stream-overlay .box-stream-content .language {
+        font-size: 10px;
+        color: #999; }
+      .box-stream-wrapper .box-stream-overlay .box-stream-content .language {
+        font-weight: bold; }
+      .box-stream-wrapper .box-stream-overlay .box-stream-content .channel {
+        font-size: 18px;
+        color: #fff; }
+
+.table {
+  border: 1px solid #313d46; }
+  .table.vam {
+    width: 100%;
+    text-align: center; }
+    .table.vam thead {
+      background-color: #313d46;
+      font-size: 14px;
+      color: #fff;
+      border-bottom: none; }
+      .table.vam thead th {
+        padding: 23px 10px;
+        font-weight: 400;
+        border-bottom: none; }
+    .table.vam tbody {
+      background-color: #273138; }
+      .table.vam tbody tr {
+        border: 1px solid #313d46; }
+        .table.vam tbody tr:hover {
+          background-color: #2f4245; }
+        .table.vam tbody tr td {
+          padding: 10px;
+          font-weight: 400;
+          border: none !important;
+          vertical-align: middle; }
+          .table.vam tbody tr td img {
+            position: relative;
+            top: -2px;
+            margin-right: 5px; }
+  .table .team {
+    min-width: 200px; }
+
+.teamlogosm h4 {
+  font-size: 11px; }

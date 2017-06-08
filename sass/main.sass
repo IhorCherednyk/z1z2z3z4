@@ -378,6 +378,7 @@ aside
 	display: flex
 	.text-main-1
 		color: #fff !important
+		font-size: 22px
 	span
 		display: block
 		-ms-flex: auto
@@ -390,14 +391,149 @@ aside
 		min-width: 20px
 		width: 20px
 		flex: 20px
-		border-bottom: 4px solid #dd163b
+		border-bottom: 2px solid #dd163b
 		transform: translateY(-10px)
 	&:after
 		content: ''
 		display: block
 		-ms-flex: 100
 		flex: 100
-		border-bottom: 4px solid #dd163b
+		border-bottom: 2px solid #dd163b
 		-ms-transform: translateY(-10px)
 		transform: translateY(-10px)
 		
+.vantage
+	overflow: hidden
+	.tbl-row
+		display: table
+		width: 100%
+		.td-wrap
+			padding: 10px
+			display: table-cell
+			width: 33%
+			text-align: center
+			div
+				color: #fff
+				border: 1px solid #b07521
+				padding: 20px 10px
+				i
+					display: block
+					width: 40px
+					margin: 0 auto
+					font-size: 40px
+					color: #b07521
+					margin-bottom: 10px
+
+.single-book
+	.book-list
+		background-color: rgba(0, 0, 0, 0.4)
+		.book-left-wrapper 
+			img
+				margin: 0
+	.btn-reg
+		color: #ff9600
+		border-color: #ff9600
+		padding: 10px 25px
+		letter-spacing: 1.5px
+		&:hover, &:active, &:focus
+			color: #ff9600
+			border-color: #ff9600
+
+	.book-review
+		.reg-wrap
+			text-align: center
+			margin: 20px 0
+			a
+				display: inline-block
+				outline: none
+	.single-book-wrap
+		margin-bottom: 70px
+
+.payment-wrap
+	img
+		display: inline-block
+		padding: 20px
+
+.betsinfo
+	.betsinfo-wrapper
+		border: 1px solid #ff9600
+		margin-bottom: 30px
+	.betsinfo-header
+		background-color: #ff9600
+		padding: 20px
+		color: #000
+		margin: 0
+	.descr-wrapper
+		background-color: #273138
+		padding: 20px
+		p
+			margin: 0
+.box-stream-wrapper
+	position: relative
+	top: 0
+	left: 0
+	width: 100%
+	height: 250px
+	background-size: cover
+	border: 1px solid #BD4111
+	margin-bottom: 30px
+	.box-stream-overlay
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: linear-gradient(45deg,rgba(31,31,31,1) 0,rgba(0,0,0,0.8) 33%,rgba(0,0,0,0) 100%)
+		&:hover
+			background: linear-gradient(45deg,rgba(31,31,31,1) 0,rgba(0,0,0,0.6) 33%,rgba(0,0,0,0) 100%)
+		.box-stream-content
+			position: absolute
+			padding: 20px
+			bottom: 0
+			margin-bottom: 0
+			width: 100%
+			span
+				display: block
+			.platform,.viewers, .language
+				font-size: 10px
+				color: #999
+			.language
+				font-weight: bold
+			.channel
+				font-size: 18px
+				color: #fff
+
+.table
+	border: 1px solid #313d46
+	&.vam
+		width: 100%
+		text-align: center
+		thead
+			background-color: #313d46
+			font-size: 14px
+			color: #fff
+			border-bottom: none
+			th
+				padding: 23px 10px
+				font-weight: 400
+				border-bottom: none
+		tbody
+			background-color: #273138
+			tr
+				border: 1px solid #313d46
+				&:hover
+					background-color: #2f4245
+				td
+					padding: 10px
+					font-weight: 400
+					border:none !important
+					vertical-align: middle
+					img
+						position: relative
+						top: -2px
+						margin-right: 5px
+	.team
+		min-width: 200px
+
+.teamlogosm h4 
+    font-size: 11px
