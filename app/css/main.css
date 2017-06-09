@@ -3035,3 +3035,60 @@ aside .stream .stream-info-wrapper {
 
 .teamlogosm h4 {
   font-size: 11px; }
+
+.match-sect ul li {
+  background-color: #171e22;
+  background-color: #273138;
+  padding: 20px 0px 0px;
+  border: 1px solid #313d46;
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden; }
+  .match-sect ul li a {
+    text-transform: uppercase; }
+    .match-sect ul li a.match-info {
+      width: 70%;
+      float: left;
+      border-right: 1px solid #313d46; }
+    .match-sect ul li a:hover {
+      color: #fff; }
+  .match-sect ul li:nth-child(2n) {
+    background-color: #171e22; }
+  .match-sect ul li .match-bets {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #313d46;
+    padding: 10px 20px;
+    margin-top: 10px;
+    overflow: hidden; }
+    .match-sect ul li .match-bets .btn-watch {
+      float: right; }
+    .match-sect ul li .match-bets span {
+      width: 70%;
+      float: left;
+      text-align: center; }
+  .match-sect ul li .tournament-img {
+    float: right;
+    width: 30%;
+    padding: 0 10px; }
+    .match-sect ul li .tournament-img img {
+      width: 100%;
+      height: auto; }
+  .match-sect ul li .team-1-wrap {
+    width: 40%;
+    text-align: left; }
+    .match-sect ul li .team-1-wrap span {
+      display: block;
+      text-align: center; }
+  .match-sect ul li .vs {
+    width: 20%;
+    text-align: center; }
+    .match-sect ul li .vs span {
+      display: block;
+      text-transform: none; }
+  .match-sect ul li .team-2-wrap {
+    width: 40%;
+    text-align: right; }
+    .match-sect ul li .team-2-wrap span {
+      display: block;
+      text-align: center; }
