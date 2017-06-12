@@ -222,19 +222,17 @@ aside
 		padding: 20px 23px
 		border: 1px solid #313d46
 		width: 100%
-		.expert-name-title,.expert-procent-title
-			color: #fff
-			font-family: "Open Sans",sans-serif
-			font-weight: 600
-			display: block
-		.header-expert
-			margin-bottom: 15px
-			span
-				display: inline-block
-			text-align: left
-			overflow: hidden
-			.expert-procent-title
-				float: right
+		.top-expert-tbl
+			width: 100%
+			th
+				color: #fff
+			.expert-link
+				a
+					color: #6b8799
+					text-decoration: underline
+			.expert-data
+				i
+					font-style: normal
 		.item
 			text-align: left
 			overflow: hidden
@@ -473,9 +471,9 @@ aside
 	top: 0
 	left: 0
 	width: 100%
-	height: 250px
-	background-size: cover
-	border: 1px solid #BD4111
+	height: 200px
+	background-size: 100% 100%
+	border: 1px solid #313d46
 	margin-bottom: 30px
 	.box-stream-overlay
 		position: absolute
@@ -483,24 +481,28 @@ aside
 		left: 0
 		width: 100%
 		height: 100%
-		background: linear-gradient(45deg,rgba(31,31,31,1) 0,rgba(0,0,0,0.8) 33%,rgba(0,0,0,0) 100%)
+		background: linear-gradient(85deg, #1f1f1f 0, rgba(0, 0, 0, 0.8) 54%, transparent 100%)
 		&:hover
 			background: linear-gradient(45deg,rgba(31,31,31,1) 0,rgba(0,0,0,0.6) 33%,rgba(0,0,0,0) 100%)
 		.box-stream-content
 			position: absolute
-			padding: 20px
+			padding: 5px 20px
 			bottom: 0
 			margin-bottom: 0
 			width: 100%
 			span
 				display: block
 			.platform,.viewers, .language
-				font-size: 10px
+				font-size: 12px
 				color: #999
 			.language
 				font-weight: bold
+				float: left
 			.channel
 				font-size: 18px
+				color: #fff
+			.viewers
+				float: right
 				color: #fff
 
 .table
@@ -540,62 +542,148 @@ aside
 
 
 .match-sect
-	ul
-		li
-			background-color: #171e22
-			background-color: #273138
-			padding: 20px 0px 0px
-			border: 1px solid #313d46
-			width: 100%
-			margin: 20px 0
-			overflow: hidden
-			a
-				&.match-info
-					width: 70%
-					float: left
-					border-right: 1px solid #313d46
-				&:hover
-					color: #fff
-				span
-				text-transform: uppercase
-			&:nth-child(2n)
-				background-color: #171e22
-			.match-bets
-				width: 100%
+	.match-sect-wrapper
+		margin: 30px 0
+	.match-sect-item
+		background-color: #273138
+		padding: 20px 0px 0px
+		border: 1px solid #313d46
+		width: 100%
+		overflow: hidden
+		a
+			&.match-info
+				width: 70%
 				float: left
-				border-top: 1px solid #313d46
-				padding: 10px 20px 
-				margin-top: 10px
-				overflow: hidden
-				.btn-watch
-					float: right
-				span
-					width: 70%
-					float: left
-					text-align: center
-					
-			.tournament-img
+				border-right: 1px solid #313d46
+			&:hover, &:focus, &:active
+				color: #fff
+			span
+			text-transform: uppercase
+		&.item-dark
+			background-color: #171e22
+		.match-bets
+			width: 100%
+			float: left
+			border-top: 1px solid #313d46
+			padding: 10px 20px 
+			margin-top: 10px
+			overflow: hidden
+			.btn-watch
 				float: right
-				width: 30%
-				padding:  0 10px
-				img
-					width: 100%
-					height: auto
-			.team-1-wrap
-				width: 40%
-				text-align: left
-				span
-					display: block
-					text-align: center
-			.vs
-				width: 20%
+			span
+				width: 70%
+				float: left
 				text-align: center
-				span
-					display: block
-					text-transform: none
-			.team-2-wrap
-				width: 40%
-				text-align: right
-				span
-					display: block
-					text-align: center
+				
+		.tournament-img
+			float: right
+			width: 30%
+			padding:  0 10px
+			img
+				width: 100%
+				height: auto
+		.team-1-wrap
+			width: 40%
+			text-align: left
+			span
+				display: block
+				text-align: center
+		.vs
+			width: 20%
+			text-align: center
+			span
+				display: block
+				text-transform: none
+		.team-2-wrap
+			width: 40%
+			text-align: right
+			span
+				display: block
+				text-align: center
+.match-coff
+	background-color: #171e22
+	padding: 30px 20px
+	border: 1px solid #313d46
+	width: 100%
+.single-match
+	.match-sect-item
+		padding-bottom: 20px
+		border-bottom: none	
+.booker-avatar
+	display: block
+	text-align: center
+	img
+		width: 60px
+		height: auto
+.match-coff-detail
+	color: #fff
+	text-align: center
+.coff-detail-numbers
+	margin: 0 15px
+.match-coff-item
+	margin: 10px 0
+	.btn-watch
+		padding: 4px 25px
+
+.match-prognoz-header
+	background-color: #273138
+	padding: 20px
+	border: 1px solid #313d46
+	width: 100%
+	overflow: hidden
+
+.single-match-prognoz
+	margin-bottom: 30px
+	.bookmeker-box
+		width: 20%
+		vertical-align: middle
+		img
+			width: 100%
+			height: auto
+	.koff-box
+		width: 50%
+		text-align: center
+		font-size: 18px
+		color: #297718
+		vertical-align: middle	
+		span
+			display: block
+			i
+				color: #fff
+				font-style: normal
+	.expert-box
+		span
+			display: block
+
+.match-prognoz-content
+	background-color: #171e22
+	border: 1px solid #313d46
+	padding-top: 40px
+	width: 100%
+	border-top: none
+	max-height: 0
+	overflow: hidden
+	position: relative
+	transition: all .25s ease
+	.text-white
+		padding: 20px
+	.fa-arrow-down
+		display: inline-block
+	.fa-arrow-up
+		display: none
+	&.active
+		transition: all .25s ease
+		max-height: 10000px
+		.fa-arrow-up
+			display: inline-block
+		.fa-arrow-down
+			display: none
+	.read-more
+		position: absolute
+		display: inline-block
+		left: 50%
+		top: 10px
+		transform: translateX(-50%)
+		cursor: pointer
+		z-index: 10
+	
